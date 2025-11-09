@@ -1,3 +1,26 @@
+.text-box h3:first-of-type {
+  color: pink;
+}
+
+
+#greycol {
+  color: grey;
+}
+
+
+.text-box div p {
+  color: red;
+}
+
+
+.text-box p:nth-of-type(3) {
+  color: green;
+}
+
+
+.yellow {
+  color: yellow;
+}
 .schedule {
   font-family: Arial;
   width: 400px;
