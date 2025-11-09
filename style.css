@@ -1,0 +1,61 @@
+.schedule {
+  font-family: Arial;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.day h3 {
+  text-align: center;
+}
+
+
+.day ul li:first-child {
+  font-weight: bold;
+}
+
+
+.day ul li:last-child {
+  text-decoration: underline;
+}
+
+
+.day ul li:nth-child(2) {
+  background-color: lightyellow;
+}
+
+
+.day ul li:nth-child(3) {
+  color: purple;
+}
+
+
+.day ul li:not(:first-child) {
+  font-style: italic;
+}
+
+
+
+.day ul li:hover {
+  background: lightblue;
+  cursor: pointer;
+}
+
+/* 2. При натисканні */
+.day ul li:active {
+  color: red;
+}
+
+/* 3. Посилання visited (покажемо на прикладі) */
+a:visited {
+  color: grey;
+}
+
+/* 4. focus для input (додаємо поле для демонстрації) */
+input:focus {
+  outline: 2px solid orange;
+}
+
+/* 5. checked для демонстрації */
+input[type="checkbox"]:checked + label {
+  color: green;
+}
